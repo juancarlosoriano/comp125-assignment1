@@ -1,0 +1,40 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  overflow-x: visible;
+  padding: 10px;
+}
+
+h1 {
+  color: navy;
+}
+
+#multTable,
+tr,
+td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 12px;
+}
+
+td {
+  padding: 8px 0;
+  min-width: 70px;
+}
+
+#btn {
+  padding: 8px 12px;
+  color: white;
+  background-color: orangered;
+  border: 1px solid #777;
+  border-radius: 4px;
+}
+
+#btn:hover {
+  cursor: pointer;
+}
+
+#btn:active {
+  color: orangered;
+  background-color: white;
+}
